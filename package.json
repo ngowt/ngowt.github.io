@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-re2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server",
+    "compile:sass": "node-sass assets/scss/theme/_timeline.scss assets/css/timeline.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

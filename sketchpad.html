@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap 4 Blog Template For Developers</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Blog Template" />
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media" />
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <!-- FontAwesome JS-->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.7.1/js/all.js"
+      integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="assets/css/timeline.css" />
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css" />
+  </head>
+
+  <body>
+    <header class="header text-center">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navigation"
+          aria-controls="navigation"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navigation" class="collapse navbar-collapse flex-column">
+          <!--//profile-section-->
+
+          <ul class="navbar-nav flex-column text-left">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                ><i class="fas fa-home fa-fw mr-2"></i>Home
+                <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"
+                ><i class="fas fa-user fa-fw mr-2"></i>About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sketchpad.html"
+                ><i class="fas fa-paint-brush fa-fw mr-2"></i>Sketchpad</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog-post.html"
+                ><i class="fas fa-bookmark fa-fw mr-2"></i>Blog</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"
+                ><i class="fas fa-phone fa-fw mr-2"></i>Contact</a
+              >
+            </li>
+          </ul>
+
+          <div class="profile-section pt-3 pt-lg-0">
+            <!--//bio-->
+            <hr />
+            <ul class="social-list list-inline py-3 mx-auto">
+              <li class="list-inline-item">
+                <a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fab fa-github-alt fa-fw"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fas fa-file-pdf fa-fw"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fab fa-instagram fa-fw"></i></a>
+              </li>
+            </ul>
+            <!--//social-list-->
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="main-wrapper">
+      <section class="blog-list px-3 py-5 p-md-5">
+        <div class="container">
+          <div class="timeline-item" date-is="Present 2020">
+            <h1>
+              I Need a Drink (Currently in Development)
+            </h1>
+            <div class="card text-white bg-primary mb-3 timeline-item__card">
+              <img
+                class="card-img-top"
+                src="assets/images/inad-1.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Technologies</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  <a href="#" class="badge badge-dark">Unity3D</a>
+                  <a href="#" class="badge badge-dark">C#</a>
+                  <a href="#" class="badge badge-dark">VRTK</a>
+                </h6>
+                <h5 class="card-title">Description</h5>
+                <p class="card-text">
+                  Currently in development. A mobile app with the goal of
+                  creating a social network based around users and their
+                  favourite bars and cocktails.
+                </p>
+                <h5 class="card-title">Developer's Comment</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item" date-is="Dec 20, 2019">
+            <h1>
+              Nexter
+            </h1>
+            <div class="card text-white bg-primary mb-3 timeline-item__card">
+              <img
+                class="card-img-top"
+                src="assets/images/nexter-1.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Technologies</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  <a href="#" class="badge badge-dark">HTML</a>
+                  <a href="#" class="badge badge-dark">CSS</a>
+                  <a href="#" class="badge badge-dark">SCSS</a>
+                </h6>
+                <h5 class="card-title">Description</h5>
+                <p class="card-text">
+                  Nexter is a template for luxury homes and realtors.
+                </p>
+                <h5 class="card-title">Developer's Comment</h5>
+                <p class="card-text">
+                  While the Trillo project focused on utilizing Flexbox, the
+                  Nexter project was solely dedicated on utilizing CSS's Grid
+                  feature. I certainly know the pain of having to create
+                  responsive grid layouts without Flexbox or CSS Grids. My
+                  favourite part was a nifty trick you can do to create these
+                  responsive grid tracks with the clever use of the minmax()
+                  function along with autofit when defining your
+                  grid-template-columns or grid-template-rows
+                  <br />
+                  <br />
+                  Not only does this allow us to be flexible in displaying a
+                  non-static number of columns/rows, but it is also responsive.
+                  The auto-fit property creates as many tracks as possible given
+                  a unit of size. It also collapses any leftover tracks and sets
+                  the width to 0. Now when used with the minmax() function,
+                  because of the minimum width, it will shift any tracks that
+                  cannot fit in its current column/row into the next one. In the
+                  case of leftover space, it is evenly distributed among the
+                  tracks until the maximum width is reached, giving us the
+                  "responsive" feel.
+                </p>
+                <p class="card-text">
+                  Special thanks to Jonas Schmedtmann for the design of the
+                  template and his fantastic course "Advanced CSS and Sass:
+                  Flexbox, Grid, Animations and More!" on Udemy
+                </p>
+                <ul class="social-list list-inline">
+                  <li class="list-inline-item">
+                    <a href="https://github.com/ngowt/nexter"
+                      ><i class="fab fa-github-alt fa-fw"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item" date-is="Nov 11, 2019">
+            <h1>
+              Trillo
+            </h1>
+            <div class="card text-white bg-primary mb-3 timeline-item__card">
+              <img
+                class="card-img-top"
+                src="assets/images/trilo-1.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Technologies</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  <a href="#" class="badge badge-dark">HTML</a>
+                  <a href="#" class="badge badge-dark">CSS</a>
+                  <a href="#" class="badge badge-dark">SCSS</a>
+                </h6>
+                <h5 class="card-title">Description</h5>
+                <p class="card-text">
+                  Trillo is a template for travel accomodations and services.
+                </p>
+                <h5 class="card-title">Developer's Comment</h5>
+                <p class="card-text">
+                  The purpose of this project was mainly to utilize CSS's
+                  flexbox feature. After spending some time on it, I started to
+                  instinctively feel the appropriate times to create a flexbox
+                  container.
+                  <br />
+                  <br />
+                  The theory behind it might take some time to get used to
+                  especially remembering whether to use justify-content or
+                  align-items, but I managed to beat it into my head that
+                  justify-content deals with aligning elements on the main-axis
+                  while align-items deals with aligning elements on the
+                  cross-axis.
+                  <br />
+                  <br />
+                  Heres another clever I found of remembering it according to an
+                  online stranger.
+                </p>
+                <blockquote class="blockquote text-center">
+                  <p class="mb-0">| draw a line to make a cross</p>
+                  <footer class="blockquote-footer">
+                    Billy from <cite title="Source Title">css-tricks.com</cite>
+                  </footer>
+                </blockquote>
+                <p class="card-text">
+                  A line, align, get it? (*Insert forced laughter). I think my
+                  favourite part of this project was when I found out how simple
+                  Flexbox could be in creating responsive layouts. For example,
+                  on desktop viewport sizes, you may want to set your flex
+                  container on a navigation menu to be horizontal but change it
+                  to vertical for tablet/phone. Its amazing!
+                </p>
+                <p class="card-text">
+                  Special thanks to Jonas Schmedtmann for the design of the
+                  template and his fantastic course "Advanced CSS and Sass:
+                  Flexbox, Grid, Animations and More!" on Udemy
+                </p>
+                <ul class="social-list list-inline">
+                  <li class="list-inline-item">
+                    <a href="https://github.com/ngowt/trillo"
+                      ><i class="fab fa-github-alt fa-fw"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item" date-is="Nov 02, 2019">
+            <h1>
+              Natours
+            </h1>
+            <div class="card text-white bg-primary mb-3 timeline-item__card">
+              <img
+                class="card-img-top"
+                src="assets/images/natours-1.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Technologies</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  <a href="#" class="badge badge-dark">HTML</a>
+                  <a href="#" class="badge badge-dark">CSS</a>
+                  <a href="#" class="badge badge-dark">SCSS</a>
+                </h6>
+                <h5 class="card-title">Description</h5>
+                <p class="card-text">
+                  Natours is a template for nature themed tour reservations.
+                </p>
+                <h5 class="card-title">Developer's Comment</h5>
+                <p class="card-text">
+                  The purpose of the Natours project is to get deep into CSS. I
+                  already had an idea of how specificity works, but it was quite
+                  enlightening to learn what happens to CSS when we open up a
+                  website.
+                </p>
+                <ol>
+                  <li>HTML is loaded</li>
+                  <li>
+                    The HTML document is parsed into the DOM (Document Object
+                    Model)
+                  </li>
+                  <li>Meanwhile, CSS is loaded</li>
+                  <li>
+                    CSS is then parsed into the CSSOM (CSS Object Model) and the
+                    final values of each properties are resolved via. a detailed
+                    process called "The Cascade" (hence the 'C' in CSS)
+                  </li>
+                  <li>The DOM and the CSSOM form the "Render Tree"</li>
+                  <li>
+                    The browser then utilizes the "Visual Formatting Model" to
+                    render the page based off the "Render Tree"
+                  </li>
+                  <li>User sees final rendered website</li>
+                </ol>
+                <p class="card-text">
+                  I was also introduced to the 7-1 design pattern for organizing
+                  your .CSS files
+                </p>
+                <ul>
+                  <li>base/</li>
+                  <li>components/</li>
+                  <li>layout/</li>
+                  <li>pages</li>
+                  <li>themes/</li>
+                  <li>abstracts/</li>
+                  <li>vendors/</li>
+                </ul>
+                <p class="card-text">
+                  Finally, I got a chance to use a CSS proprocessor (SCSS in
+                  this case) and got to experience first hand some of the
+                  features missing from old school vanilla CSS such as variables
+                  and shorthand & notation. I also got a much better
+                  understanding of writing BEM (block__element--modifier)
+                  notation compared to my previous attempt at the product
+                  landing page project.
+                </p>
+                <p class="card-text">
+                  Special thanks to Jonas Schmedtmann for the design of the
+                  template and his fantastic course "Advanced CSS and Sass:
+                  Flexbox, Grid, Animations and More!" on Udemy
+                </p>
+                <ul class="social-list list-inline">
+                  <li class="list-inline-item">
+                    <a href="https://github.com/ngowt/natours"
+                      ><i class="fab fa-github-alt fa-fw"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item" date-is="Jun 18, 2019">
+            <h1>
+              Photolytics
+            </h1>
+            <div class="card text-white bg-primary mb-3 timeline-item__card">
+              <img
+                class="card-img-top"
+                src="assets/images/photolytics-1.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Technologies</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  <a href="#" class="badge badge-dark">ReactJS</a>
+                  <a href="#" class="badge badge-dark">JavaScript ES6+</a>
+                  <a href="#" class="badge badge-dark">SemanticUI</a>
+                  <a href="#" class="badge badge-dark">Animate.CSS</a>
+                  <a href="#" class="badge badge-dark">Axios</a>
+                  <a href="#" class="badge badge-dark">SCSS</a>
+                </h6>
+                <h5 class="card-title">Description</h5>
+                <p class="card-text">
+                  Photolytics is a web application that will aesthetically
+                  display images allows users to search for images and gain
+                  insight into the actions taken (i.e. views, likes, downloads)
+                </p>
+                <h5 class="card-title">Developer's Comment</h5>
+                <p class="card-text">
+                  Photolytics is something that I wanted to build ever since I
+                  blundered pretty hard on that web development final project
+                  during my college days. BUT, I feel that I managed to rectify
+                  that failure here with this project.
+                  <br />
+                  <br />
+                  I used SemanticUI to build my UI components since I wanted to
+                  try something else aside from the widely known Bootstrap
+                  framework. Although now having used it and a few other UI
+                  frameworks, I can pretty much say they are all essentially the
+                  same. The design of the cards were based off the posts from
+                  Instagram while the waterfall grid layout was something
+                  similar to imgur. Overall I was quite pleased with how the
+                  waterfall layout and individual components turned out.
+                  <br />
+                  <br />
+                  However, I was a bit disappointed with how much control I had
+                  over implementing certain animations in ReactJS. For example,
+                  I wanted to to play certain animations when components were
+                  unmounted. Easy enough, with Animate.CSS, I will just append a
+                  className to the component on the componentWillUnmount()
+                  lifecycle method and it should work right? Well as you can
+                  guess, this doesn't play out as intended since you can't
+                  really play an animation on something that no longer exists
+                  (who knew?). The solution here would be to delay the
+                  unmounting until after the animation has finished playing.
+                  <br />
+                  <br />
+                  For the image columns, I implemented a round-robin system to
+                  distribute the images one at a time to each column. So when my
+                  infinite pagination feature came around, it worked perfectly
+                  to distribute the next series of images to each column.
+                  <br />
+                  <br />
+                  Okay, well maybe not entirely perfectly, because with this
+                  came another problem. Ironically in order to create the
+                  "waterfall" layout, the height of each card needed to be
+                  varying in size and while it worked nicely with my round-robin
+                  distribution algorithm, you would get some cases where one
+                  column would be much longer than the others. I guess maybe
+                  next time, I'll allocate elements based on how much space each
+                  column is occupying.
+                </p>
+                <ul class="social-list list-inline">
+                  <li class="list-inline-item">
+                    <a href="https://github.com/ngowt/photolytics/"
+                      ><i class="fab fa-github-alt fa-fw"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://photo-lytics.herokuapp.com/"
+                      ><i class="fas fa-play"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item" date-is="Mar 18, 2019">
+            <h1>
+              Product Landing Page
+            </h1>
+            <div class="card text-white bg-primary mb-3 timeline-item__card">
+              <img
+                class="card-img-top"
+                src="assets/images/landingpage-1.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Technologies</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  <a href="#" class="badge badge-dark">HTML</a>
+                  <a href="#" class="badge badge-dark">CSS</a>
+                </h6>
+                <h5 class="card-title">Description</h5>
+                <p class="card-text">
+                  A template for a generic landing page.
+                </p>
+                <h5 class="card-title">Developer's Comment</h5>
+                <p class="card-text">
+                  Stemming from the calculator project, I wanted to delve more
+                  into CSS and research how it actually worked. In this project,
+                  I applied CSS's flexbox feature to build various responsive
+                  sections.
+                  <br />
+                  <br />
+                  It was also at this point I was introduced to writing CSS in
+                  BEM (block__element--modifier) notation and wanted to apply it
+                  here as well. Although looking back, I got the syntax entirely
+                  wrong as well as how you are suppose to name the "blocks" and
+                  "elements". But at least I got the concept!
+                </p>
+                <ul class="social-list list-inline">
+                  <li class="list-inline-item">
+                    <a
+                      href="https://github.com/ngowt/FreeCodeCamp-Projects/tree/master/Product%20Landing%20Page"
+                      ><i class="fab fa-github-alt fa-fw"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item" date-is="May 05, 2019">
+            <h1>
+              JavaScript Calculator
+            </h1>
+            <div class="card text-white bg-primary mb-3 timeline-item__card">
+              <img
+                class="card-img-top"
+                src="assets/images/calculator-1.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Technologies</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  <a href="#" class="badge badge-dark">ReactJS</a>
+                  <a href="#" class="badge badge-dark">JavaScript ES6+</a>
+                  <a href="#" class="badge badge-dark">Bootstrap</a>
+                </h6>
+                <h5 class="card-title">Description</h5>
+                <p class="card-text">
+                  A calculator.
+                </p>
+                <h5 class="card-title">Developer's Comment</h5>
+                <p class="card-text">
+                  Yes, I know that building a calculator is probably the
+                  equivalent of your first year comp sci project. But the
+                  purpose of this was to develop a solid understanding of how
+                  state and property passing works between parent and child
+                  components in ReactJS.
+                  <br />
+                  <br />
+                  At this point, I was also getting curious about the blackbox
+                  that was CSS. Not only did I want to code functionality behind
+                  components, I also wanted to make them look visually
+                  appealing. So I just started off with Flexbox since it seemed
+                  like a clean way of getting a beautifully spaced component up
+                  and running. Bootstrap was a nice starting point since the
+                  framework abstracts the functionality of writing the .CSS code
+                  behinds the class names.
+                </p>
+                <ul class="social-list list-inline">
+                  <li class="list-inline-item">
+                    <a
+                      href="https://github.com/ngowt/FreeCodeCamp-Projects/tree/master/js-calculator"
+                      ><i class="fab fa-github-alt fa-fw"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://js-online-calculator.herokuapp.com/"
+                      ><i class="fas fa-play"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item" date-is="Mar 01, 2019">
+            <h1>
+              Random Quote Machine
+            </h1>
+            <div class="card text-white bg-primary mb-3 timeline-item__card">
+              <img
+                class="card-img-top"
+                src="assets/images/randomquotemachine-1.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Technologies</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  <a href="#" class="badge badge-dark">ReactJS</a>
+                  <a href="#" class="badge badge-dark">JavaScript ES6+</a>
+                  <a href="#" class="badge badge-dark">Animate.css</a>
+                  <a href="#" class="badge badge-dark">Axios</a>
+                </h6>
+                <h5 class="card-title">Description</h5>
+                <p class="card-text">
+                  Random Quote Machine does exactly what it's name suggests. It
+                  generates a random quote and displays it.
+                </p>
+                <h5 class="card-title">Developer's Comment</h5>
+                <p class="card-text">
+                  I think this is the first ReactJS application I ever built.
+                  The purpose of which wasn't actually to build something
+                  complex, but rather see what the framework offered and conjure
+                  my own thoughts and opinions on it.
+                </p>
+                <ul class="social-list list-inline">
+                  <li class="list-inline-item">
+                    <a
+                      href="https://github.com/ngowt/FreeCodeCamp-Projects/tree/master/random-quote-machine"
+                      ><i class="fab fa-github-alt fa-fw"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://rng-quote-machine.herokuapp.com/"
+                      ><i class="fas fa-play"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item" date-is="Nov 04, 2018">
+            <h1>
+              VRDuckHunt
+            </h1>
+            <div class="card text-white bg-primary mb-3 timeline-item__card">
+              <img
+                class="card-img-top"
+                src="assets/images/vrduckhunt-1.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Technologies</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  <a href="#" class="badge badge-dark">Unity3D</a>
+                  <a href="#" class="badge badge-dark">C#</a>
+                  <a href="#" class="badge badge-dark">VRTK</a>
+                </h6>
+                <h5 class="card-title">Description</h5>
+                <p class="card-text">
+                  VRDuckHunt is a virtual reality game where you shoot ducks to
+                  prevent them from escaping. However, as you progress through
+                  each level, the ducks also bring more and more of their
+                  friends.
+                </p>
+                <h5 class="card-title">Developer's Comment</h5>
+                <p class="card-text">
+                  The rise of VR had coincidentally brought me together with a
+                  group of people who shared similar passions for game
+                  development including an incredibly talented modeler. The
+                  biggest challenge for me was making the gun behave and feel as
+                  immersive as possible. This included getting gyroscopic
+                  orientation to match the controller, animation, firing and of
+                  course--reloading.
+                </p>
+                <ul class="social-list list-inline">
+                  <li class="list-inline-item">
+                    <a href="https://github.com/ngowt/VRDuckHunt"
+                      ><i class="fab fa-github-alt fa-fw"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item" date-is="Oct 10, 2018">
+            <h1>
+              Playerbase
+            </h1>
+            <div class="card text-white bg-primary mb-3 timeline-item__card">
+              <img
+                class="card-img-top"
+                src="assets/images/playerbase-1.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Technologies</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  <a href="#" class="badge badge-dark">HTML</a>
+                  <a href="#" class="badge badge-dark">JavaScript ES5/ES6</a>
+                </h6>
+                <h5 class="card-title">Description</h5>
+                <p class="card-text">
+                  Playerbase does a lookup on a user's steam profile and gets
+                  their inventory data so it can display the market value for
+                  each item. In doing so, it also calculates the total value of
+                  your account based on ingame items.
+                </p>
+                <h5 class="card-title">Developer's Comment</h5>
+                <p class="card-text">
+                  I remember when I completed this, I felt pretty happy
+                  considering how it was the first real web application that I
+                  built using the new(er) ES6 standard. Looking back now, there
+                  were a lot of problems with it. For example, incomplete
+                  classes, giant if-else blocks, and lack of OAuth with steam
+                  and styling. I think sometime in the future, I will dedicate a
+                  blog post entirely to this.
+                </p>
+                <ul class="social-list list-inline">
+                  <li class="list-inline-item">
+                    <a href="https://github.com/ngowt/playerbase/"
+                      ><i class="fab fa-github-alt fa-fw"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer text-center py-2 theme-bg-dark">
+        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+        <small class="copyright"
+          >Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by
+          <a href="http://themes.3rdwavemedia.com" target="_blank"
+            >Xiaoying Riley</a
+          >
+          for developers</small
+        >
+      </footer>
+    </div>
+    <!--//main-wrapper-->
+
+    <!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->
+    <div id="config-panel" class="config-panel d-none d-lg-block">
+      <div class="panel-inner">
+        <a
+          id="config-trigger"
+          class="config-trigger config-panel-hide text-center"
+          href="#"
+          ><i class="fas fa-cog fa-spin mx-auto" data-fa-transform="down-6"></i
+        ></a>
+        <h5 class="panel-title">Choose Colour</h5>
+        <ul id="color-options" class="list-inline mb-0">
+          <li class="theme-1 active list-inline-item">
+            <a data-style="assets/css/theme-1.css" href="#"></a>
+          </li>
+          <li class="theme-2  list-inline-item">
+            <a data-style="assets/css/theme-2.css" href="#"></a>
+          </li>
+          <li class="theme-3  list-inline-item">
+            <a data-style="assets/css/theme-3.css" href="#"></a>
+          </li>
+          <li class="theme-4  list-inline-item">
+            <a data-style="assets/css/theme-4.css" href="#"></a>
+          </li>
+          <li class="theme-5  list-inline-item">
+            <a data-style="assets/css/theme-5.css" href="#"></a>
+          </li>
+          <li class="theme-6  list-inline-item">
+            <a data-style="assets/css/theme-6.css" href="#"></a>
+          </li>
+          <li class="theme-7  list-inline-item">
+            <a data-style="assets/css/theme-7.css" href="#"></a>
+          </li>
+          <li class="theme-8  list-inline-item">
+            <a data-style="assets/css/theme-8.css" href="#"></a>
+          </li>
+        </ul>
+        <a id="config-close" class="close" href="#"
+          ><i class="fa fa-times-circle"></i
+        ></a>
+      </div>
+      <!--//panel-inner-->
+    </div>
+    <!--//configure-panel-->
+
+    <!-- Javascript -->
+    <script src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+    <script src="assets/js/demo/style-switcher.js"></script>
+  </body>
+</html>
